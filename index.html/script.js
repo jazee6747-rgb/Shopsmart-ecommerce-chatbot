@@ -1,7 +1,7 @@
 function send() {
   let msg = document.getElementById("msg").value;
 
-  fetch("https://YOUR-BACKEND-URL/chat", {
+  fetch("https://shopsmart-ecommerce-chatbot-2.onrender.com", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message: msg })
